@@ -1,17 +1,20 @@
-body {
-	background-color: #90C3D4;
-}
-
 #container {
+	background-color: #90C3D4;
 	width: 100%;
 }
 
 #menu {
 	width: 100%;
 	height: 30px;
-	background-color: black;
+	background-color: #B25B00;
 }
 
+#menu ul {
+	padding-top: 5px;
+}
+#menu li {
+	display: inline;
+}
 #callout {
 	margin-top: 20px;
 	text-align: center;
@@ -31,7 +34,7 @@ body {
 	font-family: monospace, impact;
 }
 
-#spacer {
+.spacer200 {
 	width: 100%;
 	height: 200px;
 }
