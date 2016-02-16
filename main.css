@@ -1,3 +1,7 @@
+html {
+	background-color: black;
+}
+
 #container {
 	background-color: #90C3D4;
 	width: 100%;
@@ -5,20 +9,30 @@
 
 #menu {
 	width: 100%;
-	height: 30px;
+	height: 35px;
 	background-color: #B25B00;
 }
 
 #menu ul {
-	padding-top: 5px;
+	list-style-type: none;
+	padding-top: 8px;
 }
+
+#menu li a {
+	font-family: fantasy, sans-serif;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 #menu li {
-	display: inline;
+	float: left;
 }
+
 #callout {
 	margin-top: 20px;
 	text-align: center;
-	font-family: monospace, impact;
+	font-family: sans-serif;
 	font-size: 30px;
 	font-weight: bold;
 	letter-spacing: 15px;
@@ -31,7 +45,7 @@
 	width: 300px;
 	height: 150px;
 	text-align: center;
-	font-family: monospace, impact;
+	font-family: fantasy, sans-serif;
 }
 
 .spacer200 {
