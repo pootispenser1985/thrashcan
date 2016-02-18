@@ -21,17 +21,18 @@
 
 
 
+    <table>
+      <?php
+        $db = new SQLite3("comments.db");
+        $query = "SELECT * FROM comments";
+        $result = $db->query($query);
+        $row = $result->fetchArray();
 
-
-    <?php
-      $db = new SQLite3("comments.db");
-      $query = "SELECT * FROM comments";
-      $result = $db->query($query);
-      $row = $result->fetchArray();
-
-      echo $row[1]." ".$row[2];
-
-   ?>
+        echo "<tr>";
+        echo "<td>".$row[1]."</td><td>".$row[2]."</td>";
+        echo "</tr>";
+      ?>
+    </table>
   </div>
 </body>
 </html>
