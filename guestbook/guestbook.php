@@ -28,9 +28,12 @@
         $result = $db->query($query);
         $row = $result->fetchArray();
 
-        echo "<tr>";
-        echo "<td>".$row[1]."</td><td>".$row[2]."</td>";
-        echo "</tr>";
+        while ($row) {
+          echo "<tr>";
+          echo "<td>".$row[1]."</td><td>".$row[2]."</td>";
+          echo "</tr>";
+          $row = $result->fetchArray();
+        }
       ?>
     </table>
   </div>
