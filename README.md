@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # thrashcan
 
 Welcome to Thrashcan. This is just my own personal website. The only real
