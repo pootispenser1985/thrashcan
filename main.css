@@ -2,6 +2,8 @@
 #menu ul li:nth-child(2), #menu ul li:nth-child(3) {
 	text-decoration: line-through;
 }
+
+practicing with striking out menu items
 */
 html {
 	background-color: black;
