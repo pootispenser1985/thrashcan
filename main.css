@@ -1,10 +1,3 @@
-/*
-#menu ul li:nth-child(2), #menu ul li:nth-child(3) {
-	text-decoration: line-through;
-}
-
-practicing with striking out menu items
-*/
 html {
 	background-color: black;
 }
@@ -20,6 +13,10 @@ html {
 	background-color: #B25B00;
 }
 
+#menu li {
+	float: left;
+}
+
 #menu ul {
 	list-style-type: none;
 	padding-top: 8px;
@@ -32,10 +29,6 @@ html {
 	padding-right: 10px;
 }
 
-#menu li {
-	float: left;
-}
-
 #callout {
 	margin-top: 20px;
 	text-align: center;
@@ -45,12 +38,12 @@ html {
 	letter-spacing: 15px;
 }
 
-#intro {
+#centerContent {
 	margin-top: 40px;
 	margin-right: auto;
 	margin-left: auto;
-	width: 300px;
-	height: 150px;
+	width: 400px;
+	height: auto;
 	text-align: center;
 	font-family: fantasy, sans-serif;
 }
