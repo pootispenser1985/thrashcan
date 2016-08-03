@@ -1,34 +1,32 @@
-html {
+body {
 	background-color: black;
 }
 
-#container {
+.container {
 	background-color: #90C3D4;
-	width: 100%;
 }
 
-#menu {
-	width: 100%;
+.menu {
 	height: 35px;
 	background-color: #B25B00;
 }
 
-#menu li {
+.menu li {
 	float: left;
 }
 
-#menu ul {
+.menu ul {
 	list-style-type: none;
 	padding-top: 8px;
 }
 
-#menu li a {
+.menu li a {
 	font-family: fantasy, sans-serif;
 	text-decoration: none;
 	padding-left: 10px;
 	padding-right: 10px;
 }
-
+/*
 #callout {
 	margin-top: 20px;
 	text-align: center;
@@ -56,3 +54,4 @@ html {
 #ooer {
 	text-align: center;
 }
+*/
