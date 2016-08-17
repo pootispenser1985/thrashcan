@@ -11,11 +11,7 @@ nav {
 	background-color: #B25B00;
 }
 
-nav ul {
-	list-style-type: none;
-}
-
-nav li a {
+nav a {
 	color: black;
 	text-decoration: none;
 	padding-left: 10px;
