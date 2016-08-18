@@ -1,23 +1,25 @@
 body {
-	background-color: black;
+	background-color: #2A2C2B;
 }
 
 .container {
-	background-color: #90C3D4;
-	height: 3000px;
+	background-color: #D9CB9E;
+	height: 800px;
 }
 
 .howdy {
-	font-family: "Caflisch Script", cursive;
+	font-family: "Caflisch Script", cursive, serif;
 }
 nav {
 	height: 3em;
-	background-color: #B25B00;
+	background-color: #DC3522;
 }
 
 nav a {
 	margin: 10px;
-	color: black;
+	color: #374140;
+	font-weight: bold;
+	font-family: monospace;
 	text-decoration: none;
 	padding-left: 10px;
 	padding-right: 10px;
