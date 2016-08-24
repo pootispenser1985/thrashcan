@@ -31,11 +31,14 @@
         (so that there's not an assload of comments)</p>"; //if the user's ip address IS in the db, disallow the comment
       }
 
+
+/*   I don't remember why I made this, but i figure i won't delete it
       echo "DEBUG INFO"."<BR>";
       echo $_POST['comment'].addslashes(" --  $_POST['comment'] <BR>");
       echo $ipQuery." --  $ipquery <BR>";
       echo $ip." -- ip <BR>";
       echo $insertQuery." -- $insertQuery";
+      */
     ?>
   </div>
 </body>
