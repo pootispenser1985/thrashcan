@@ -7,14 +7,17 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12./jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="http://www.thrashcan.net/main.css?version=29"/>
+  <title>Guestbook</title>
 </head>
 
 <body>
 <div class="container">
   <nav class="row">
-    <a class="col-sm-1" href="guestbook/main.php">Guestbook</a>
-    <a class="col-sm-1" href="#">Placeholder</a>
-    <a class="col-sm-1" href="pics.html">Pictures</a>
+    <a class="col-sm-1" href="/guestbook/main.php">Guestbook</a>
+    <a class="col-sm-1 col-sm-offset-1" href="#">Placeholder</a>
+    <a class="col-sm-1 col-sm-offset-1" href="/pics/pics.html">Pictures</a>
+    <div class="col-sm-1 col-sm-offset-5"><img src="/pics/dogturd.png"></div>
+    <a class="col-sm-1" href="http://www.thrashcan.net">Thrash</a>
   </nav>
 
   <div class="row">
