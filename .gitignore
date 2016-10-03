@@ -1,3 +1,9 @@
 guestbook/php_errorlog
 update.sh
+<<<<<<< HEAD
 .sass-cache
+=======
+pics/*.jpg
+*.jpg
+
+>>>>>>> 49b3e48f564eab9c592dacdb8fdbf033c95441d5
