@@ -1,34 +1,28 @@
 .alertText {
-		font-weight:  bolder;
-}
+  font-weight: bolder; }
 
 body {
-	background-color: #2A2C2B;
-}
+  background-color: #2A2C2B; }
 
 .container {
-	background-color: #D9CB9E;
-	height: 800px;
-}
+  background-color: #D9CB9E;
+  height: 800px; }
 
 .howdy {
-	font-family: "Caflisch Script", cursive, serif;
-}
+  font-family: "Caflisch Script", cursive, serif; }
 
 nav {
-	height: 3.3em;
-	background-color: #DC3522;
-}
-
-nav a {
-	color: #374140;
-	font-weight: bold;
-	font-family: monospace;
-	font-size: 1.2em;
-	margin-top: 10px;
-	text-decoration: none;
-}
-
-nav img {
-	margin-top: 5px;
-}
+  height: 3.3em;
+  background-color: #DC3522; }
+  nav a {
+    /*	color: #374140; */
+    color: black;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.2em; }
+    nav a :hover {
+      text-decoration: none; }
+  nav img {
+    margin-top: 5px; }

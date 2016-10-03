@@ -1,0 +1,38 @@
+.alertText {
+		font-weight:  bolder;
+}
+
+body {
+	background-color: #2A2C2B;
+}
+
+.container {
+	background-color: #D9CB9E;
+	height: 800px;
+}
+
+.howdy {
+	font-family: "Caflisch Script", cursive, serif;
+}
+
+nav {
+	height: 3.3em;
+	background-color: #DC3522;
+	a {
+	/*	color: #374140; */
+		color: black;
+		margin-top: 10px;
+		text-decoration: none;
+		& :hover {
+			text-decoration: none;
+		}
+		font: {
+			weight: bold;
+			family: monospace;
+			size: 1.2em;
+		};
+	}
+	img {
+		margin-top: 5px;
+	}
+}
