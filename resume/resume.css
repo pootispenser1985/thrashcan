@@ -1,0 +1,21 @@
+#contact-info {
+  width: 400px;
+  margin:0 auto;
+  text-align: center;
+}
+
+#contact-info h4, #contact-info i {
+  display: inline;
+}
+
+#my-name {
+  font-size: 1.5em;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+ul i {
+}
