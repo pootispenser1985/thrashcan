@@ -1,5 +1,5 @@
 .alertText {
-		font-weight:  bolder;
+	font-weight:  bolder;
 }
 
 body {
@@ -16,23 +16,23 @@ body {
 }
 
 nav {
-	height: 3.3em;
 	background-color: #DC3522;
-	a {
-	/*	color: #374140; */
-		color: black;
-		margin-top: 10px;
-		text-decoration: none;
-		& :hover {
+	div {
+		height: 3.3em;
+		padding-top: 10px;
+	  a {
+			color: black;
+			font: {
+				weight: bold;
+				family: monospace;
+			};
 			text-decoration: none;
+			&:hover {
+				text-decoration: none;
+			}
 		}
-		font: {
-			weight: bold;
-			family: monospace;
-			size: 1.2em;
-		};
-	}
-	img {
-		margin-top: 5px;
+		img {
+			margin-top: -5px;
+		}
 	}
 }
