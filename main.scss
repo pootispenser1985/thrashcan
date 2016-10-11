@@ -1,9 +1,17 @@
-.alertText {
-	font-weight:  bolder;
+#comment-box {
+	padding-top: 20px;
 }
 
-body {
-	background-color: #2A2C2B;
+#gallery {
+	height: 400px;
+	div img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.alertText {
+	font-weight:  bolder;
 }
 
 .container {
@@ -13,6 +21,10 @@ body {
 
 .howdy {
 	font-family: "Caflisch Script", cursive, serif;
+}
+
+body {
+	background-color: #2A2C2B;
 }
 
 nav {

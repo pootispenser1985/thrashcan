@@ -6,24 +6,25 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12./jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="http://www.thrashcan.net/main.css?version=29"/>
+  <link rel="stylesheet" type="text/css" href="http://www.thrashcan.net/main.css?version=63"/>
   <title>Guestbook</title>
 </head>
 
 <body>
 <div class="container">
   <nav class="row">
-    <a class="col-sm-1" href="/guestbook/main.php">Guestbook</a>
-    <a class="col-sm-1 col-sm-offset-1" href="#">Placeholder</a>
-    <a class="col-sm-1 col-sm-offset-1" href="/pics/pics.html">Pictures</a>
-    <div class="col-sm-1 col-sm-offset-5"><img src="/pics/dogturd.png"></div>
-    <a class="col-sm-1" href="http://www.thrashcan.net">Thrash</a>
+    <div class="col-xs-3 col-md-2"><a href="/guestbook/main.php">Guestbook</a></div>
+    <div class="col-md-2 hidden-xs hidden-sm"><a href="#">Placeholder</a></div>
+    <div class="col-xs-3 col-md-2"><a href="/pics/pics.html">Pictures</a></div>
+    <div class="col-xs-6 col-md-2 col-md-offset-4"><a href="http://www.thrashcan.net">Thrash</a>
+      <img src="/pics/dogturd.png"></div>
   </nav>
 
-  <div class="row">
-    <form class="col-sm-12" action="inserter.php" method="post">
-      <textarea placeholder="Leave a comment! Only one per IP, please." name="comment" rows="5" cols="50"></textarea>
-      <input type="submit" value="submit">
+  <div class="row"  id="comment-box">
+    <form action="inserter.php" class="col-md-6 col-md-offset-3 form-group text-center" method="post">
+      <textarea class="form-control" name="comment"
+        placeholder="Leave a comment! Only one per IP, please." rows=4></textarea>
+      <input class="btn btn-primary" type="submit" value="submit"></input>
     </form>
   </div>
 

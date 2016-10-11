@@ -1,8 +1,14 @@
+#comment-box {
+  padding-top: 20px; }
+
+#gallery {
+  height: 400px; }
+  #gallery div img {
+    width: 100%;
+    height: auto; }
+
 .alertText {
   font-weight: bolder; }
-
-body {
-  background-color: #2A2C2B; }
 
 .container {
   background-color: #D9CB9E;
@@ -10,6 +16,9 @@ body {
 
 .howdy {
   font-family: "Caflisch Script", cursive, serif; }
+
+body {
+  background-color: #2A2C2B; }
 
 nav {
   background-color: #DC3522; }
