@@ -15,7 +15,8 @@ nav {
   background-color: #DC3522; }
   nav div {
     height: 3.3em;
-    padding-top: 10px; }
+    padding-top: 10px;
+    text-align: center; }
     nav div a {
       color: black;
       font-weight: bold;
