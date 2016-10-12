@@ -1,13 +1,28 @@
 #comment-box {
 	padding-top: 20px;
+	form input {
+		margin-top: 5px;
+	}
 }
 
 #gallery {
-	height: 400px;
-	div img {
-		width: 100%;
-		height: auto;
+	div {
+		padding: 20px;
 	}
+
+	div img {
+		display: block;
+		height: auto;
+		max-width: 100%;
+	}
+}
+
+#howdy {
+	font-family: "Permanent Marker", sans-serif;
+}
+
+#introtext {
+    font-family: "Open Sans", sans-serif;
 }
 
 .alertText {
@@ -16,11 +31,8 @@
 
 .container {
 	background-color: #D9CB9E;
-	height: 800px;
-}
-
-.howdy {
-	font-family: "Caflisch Script", cursive, serif;
+    min-height: 480px;
+/*	height: 800px; */
 }
 
 body {

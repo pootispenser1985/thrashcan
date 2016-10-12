@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12./jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="http://www.thrashcan.net/main.css?version=63"/>
+  <link rel="stylesheet" type="text/css" href="http://www.thrashcan.net/main.css?version=80">
   <title>Guestbook</title>
 </head>
 
