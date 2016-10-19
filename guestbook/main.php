@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12./jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="http://www.thrashcan.net/main.css?version=80">
   <title>Guestbook</title>
@@ -21,10 +21,10 @@
   </nav>
 
   <div class="row"  id="comment-box">
-    <form action="inserter.php" class="col-md-6 col-md-offset-3 form-group text-center" method="post">
+    <form class="col-md-6 col-md-offset-3 form-group text-center" id="comment-form">
       <textarea class="form-control" name="comment"
         placeholder="Leave a comment! Only one per IP, please." rows=4></textarea>
-      <input class="btn btn-primary" type="submit" value="submit"></input>
+      <input class="btn btn-primary" id="submit-comment" type="submit" value="submit"></input>
     </form>
   </div>
 
@@ -46,5 +46,5 @@
   ?>
 </div>
 </body>
-
+<script src="submitter.js?v=12"></script>
 </html>
