@@ -12,13 +12,18 @@ function submitForm() {
   console.log("from the callback");
   var comment = $("#comment-text").val();
 
+  var url = "inserter.php";
+  var data = "comment=" + comment;
+
   $.ajax({
     type: "POST", url: "inserter.php", data: "comment=" + comment,
-    success: function(text) {
+    success: alert(data)
+/*
+    function(text) {
       if (text == "success") {
         formSuccess();
       }
-    }
+    } */
   });
   console.log(comment);
 }
