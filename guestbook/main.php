@@ -22,7 +22,7 @@
 
   <div class="row"  id="comment-box">
     <form class="col-md-6 col-md-offset-3 form-group text-center" id="comment-form">
-      <textarea class="form-control" name="comment"
+      <textarea class="form-control" id="comment-text" name="comment"
         placeholder="Leave a comment! Only one per IP, please." rows=4></textarea>
       <input class="btn btn-primary" id="submit-comment" type="submit" value="submit"></input>
     </form>
@@ -46,5 +46,5 @@
   ?>
 </div>
 </body>
-<script src="submitter.js?v=12"></script>
+<script src="submitter.js?v=15"></script>
 </html>

@@ -10,4 +10,19 @@ console.log("from outside the submit event");
 
 function submitForm() {
   console.log("from the callback");
-};
+  var comment = $("#comment-text").val();
+
+  $.ajax({
+    type: "POST", url: "inserter.php", data: "comment=" + comment,
+    success: function(text) {
+      if (text == "success") {
+        formSuccess();
+      }
+    }
+  });
+  console.log(comment);
+}
+
+function formSuccess() {
+  console.log("Success!!!");
+}
