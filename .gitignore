@@ -8,3 +8,4 @@ pics/*.jpg
 *.jpg
 .DS_Store
 ._.DS_Store
+includes/*
