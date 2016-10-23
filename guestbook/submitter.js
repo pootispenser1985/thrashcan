@@ -15,12 +15,20 @@ function submitForm() {
       if (text == "success"){
           formSuccess();
       }
+      else if (text == "repost") {
+          formRepost();
+      }
     }
   });
 }
 
 function formSuccess(){
-  $( "#msgSubmit" ).removeClass( "hidden" );
+  document.getElementById("msgSubmit").innerHTML = "Comment Posted!";
   $("#comment-feed").load("getfeed.php");
+  $("#comment-text").val(" ");
+}
+
+function formRepost() {
+  document.getElementById("msgSubmit").innerHTML = "You've already posted a comment.";
   $("#comment-text").val(" ");
 }
