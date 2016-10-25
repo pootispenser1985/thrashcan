@@ -1,8 +1,9 @@
 #comment-box {
 	padding-top: 20px;
+	/*
 	form input {
 		margin-top: 5px;
-	}
+	}*/
 }
 
 #gallery {
@@ -24,6 +25,11 @@
 #introtext {
     font-family: "Open Sans", sans-serif;
 }
+
+#msgSubmit {
+	visibility: hidden;
+}
+
 /*
 #msgSubmit {
 	float: right;

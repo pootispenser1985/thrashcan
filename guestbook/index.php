@@ -8,7 +8,7 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css"
     href="https://fonts.googleapis.com/css?family=Open Sans">
-  <link rel="stylesheet" type="text/css" href="http://www.thrashcan.net/main.css?version=82">
+  <link rel="stylesheet" type="text/css" href="http://www.thrashcan.net/main.css?version=85">
   <link rel="shortcut icon" href="http://thrashcan.net/pics/dogturd-transparent.png">
   <title>THRASHCAN</title>
 </head>
@@ -22,9 +22,9 @@
         <img src="/pics/dogturd.png"></div>
     </nav>
     <div class="row">
-      <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+      <div class="col-xs-12 col-md-8 col-md-offset-2 text-center" id="comment-box">
         <form id="guestbook-form" role="form">
-          <span id="msgSubmit"></span>
+          <span id="msgSubmit">placeholder</span>
           <textarea class="form-control" id="comment-text" name="comment"
             placeholder="Leave a comment! Only one per IP, please." rows=4></textarea>
           <input class="btn btn-primary" id="submit-button" type="submit" value="submit"></input>

@@ -1,3 +1,5 @@
+msgSubmitSpan = document.getElementById("msgSubmit");
+
 $("#guestbook-form").submit(function(event){
     // cancels the form submission
     event.preventDefault();
@@ -12,6 +14,7 @@ function submitForm() {
     url: "inserter.php",
     data: "comment=" + comment,
     success: function(text){
+      msgSubmitSpan.style.visibility = "visible";
       if (text == "success"){
           formSuccess();
       }
@@ -23,12 +26,14 @@ function submitForm() {
 }
 
 function formSuccess(){
-  document.getElementById("msgSubmit").innerHTML = "Comment Posted!";
+  msgSubmitSpan.innerHTML = "Comment Posted!";
+  //msgSubmitSpan.style.color = "green";
   $("#comment-feed").load("getfeed.php");
   $("#comment-text").val(" ");
 }
 
 function formRepost() {
-  document.getElementById("msgSubmit").innerHTML = "You've already posted a comment.";
+  msgSubmitSpan.innerHTML = "You've already posted a comment.";
+  //msgSubmitSpan.style.color = "red";
   $("#comment-text").val(" ");
 }

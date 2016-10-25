@@ -1,7 +1,9 @@
 #comment-box {
-  padding-top: 20px; }
-  #comment-box form input {
-    margin-top: 5px; }
+  padding-top: 20px;
+  /*
+  form input {
+  	margin-top: 5px;
+  }*/ }
 
 #gallery div {
   padding: 20px; }
@@ -15,6 +17,9 @@
 
 #introtext {
   font-family: "Open Sans", sans-serif; }
+
+#msgSubmit {
+  visibility: hidden; }
 
 /*
 #msgSubmit {
