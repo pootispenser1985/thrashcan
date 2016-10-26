@@ -1,3 +1,4 @@
+<!-- Guestbook -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,13 +15,7 @@
 </head>
 <body>
   <div class="container">
-    <nav class="row">
-      <div class="col-xs-3 col-md-2"><a href="/guestbook/index.php">Guestbook</a></div>
-      <div class="col-md-2 hidden-xs hidden-sm"><a href="#">Placeholder</a></div>
-      <div class="col-xs-3 col-md-2"><a href="/pics/pics.html">Pictures</a></div>
-      <div class="col-xs-6 col-md-2 col-md-offset-4"><a href="http://www.thrashcan.net">Thrash</a>
-        <img src="/pics/dogturd.png"></div>
-    </nav>
+    <?php include '../includes/navbar.html'; ?>
     <div class="row">
       <div class="col-xs-12 col-md-8 col-md-offset-2 text-center" id="comment-box">
         <form id="guestbook-form" role="form">
@@ -28,7 +23,6 @@
           <textarea class="form-control" id="comment-text" name="comment"
             placeholder="Leave a comment! Only one per IP, please." rows=4></textarea>
           <input class="btn btn-primary" id="submit-button" type="submit" value="submit"></input>
-
         </form>
       </div>
     </div>
@@ -41,5 +35,5 @@
     </div>
   </div>
 </body>
-<script src="submitter.js?v=33"></script>
+<script src="submitter.js"></script>
 </html>

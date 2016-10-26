@@ -1,3 +1,4 @@
+<!-- Main front page of whole site -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,17 +15,9 @@
   <link rel="shortcut icon" href="http://thrashcan.net/pics/dogturd-transparent.png">
   <title>THRASHCAN</title>
 </head>
-
 <body>
   <div class="container">
-    <nav class="row">
-      <div class="col-xs-3 col-md-2"><a href="/guestbook/index.php">Guestbook</a></div>
-      <div class="col-md-2 hidden-xs hidden-sm"><a href="#">Placeholder</a></div>
-      <div class="col-xs-3 col-md-2"><a href="/pics/pics.html">Pictures</a></div>
-      <div class="col-xs-6 col-md-2 col-md-offset-4"><a href="http://www.thrashcan.net">Thrash</a>
-        <img src="/pics/dogturd.png"></div>
-    </nav>
-
+    <?php include 'includes/navbar.html'; ?>
     <section class="row">
       <div class="col-lg-4 col-lg-offset-4">
         <h2 class="text-center" id="howdy">Howdy!</h2>

@@ -1,7 +1,9 @@
+//A lot of this is from:
+//https://webdesign.tutsplus.com/tutorials/building-a-bootstrap-contact-form-using-php-and-ajax--cms-23068
+
 msgSubmitSpan = document.getElementById("msgSubmit");
 
 $("#guestbook-form").submit(function(event){
-    // cancels the form submission
     event.preventDefault();
     submitForm();
 });
@@ -27,13 +29,13 @@ function submitForm() {
 
 function formSuccess(){
   msgSubmitSpan.innerHTML = "Comment Posted!";
-  //msgSubmitSpan.style.color = "green";
+  msgSubmitSpan.style.color = "green";
   $("#comment-feed").load("getfeed.php");
   $("#comment-text").val(" ");
 }
 
 function formRepost() {
   msgSubmitSpan.innerHTML = "You've already posted a comment.";
-  //msgSubmitSpan.style.color = "red";
+  msgSubmitSpan.style.color = "red";
   $("#comment-text").val(" ");
 }

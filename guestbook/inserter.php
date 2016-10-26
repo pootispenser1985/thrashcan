@@ -9,12 +9,9 @@
   $result = $db->query($ipQuery);
   if ($result->fetch_array() == NULL) {
     $db->query($insertQuery);
-    echo "success"; //if the user's ip address isn't in the db, allow the comment
+    echo "success";
   }
   else {
     echo "repost";
-    /*
-    echo "You've been here before! Discarding your comment
-    (so that there's not an assload of comments)"; //if the user's ip address IS in the db, disallow the comment */
   }
 ?>

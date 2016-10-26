@@ -1,9 +1,5 @@
 #comment-box {
-  padding-top: 20px;
-  /*
-  form input {
-  	margin-top: 5px;
-  }*/ }
+  padding-top: 20px; }
 
 #comment-feed {
   padding-top: 20px; }
@@ -23,23 +19,18 @@
 
 #msgSubmit {
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   visibility: hidden; }
 
 #submit-button {
   margin-top: 7px; }
 
-/*
-#msgSubmit {
-	float: right;
-}*/
 .alertText {
   font-weight: bolder; }
 
 .container {
   background-color: #D9CB9E;
-  min-height: 480px;
-  /*	height: 800px; */ }
+  min-height: 480px; }
 
 body {
   background-color: #2A2C2B; }
