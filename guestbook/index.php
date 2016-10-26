@@ -8,7 +8,7 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css"
     href="https://fonts.googleapis.com/css?family=Open Sans">
-  <link rel="stylesheet" type="text/css" href="http://www.thrashcan.net/main.css?version=85">
+  <link rel="stylesheet" type="text/css" href="http://www.thrashcan.net/main.css?version=88">
   <link rel="shortcut icon" href="http://thrashcan.net/pics/dogturd-transparent.png">
   <title>THRASHCAN</title>
 </head>

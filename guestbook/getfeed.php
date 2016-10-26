@@ -3,7 +3,6 @@
   $db = new mysqli('localhost', $sqlUser, $sqlPass, 'thrashca_guestbook');
   $query = "SELECT `id`, `ip`, `time`, `content` FROM posts ORDER BY id DESC LIMIT 12;";
   $result = $db->query($query);
-  echo "<br><br>";
   while (2 < 5) {
     $line = $result->fetch_array();
     if ($line == NULL) {break;}

@@ -1,9 +1,9 @@
 #comment-box {
 	padding-top: 20px;
-	/*
-	form input {
-		margin-top: 5px;
-	}*/
+}
+
+#comment-feed {
+	padding-top: 20px;
 }
 
 #gallery {
@@ -27,22 +27,22 @@
 }
 
 #msgSubmit {
+	font-weight: bold;
+	margin-bottom: 7px;
 	visibility: hidden;
 }
 
-/*
-#msgSubmit {
-	float: right;
-}*/
+#submit-button {
+	margin-top: 7px;
+}
 
 .alertText {
-	font-weight:  bolder;
+	font-weight: bolder;
 }
 
 .container {
 	background-color: #D9CB9E;
-    min-height: 480px;
-/*	height: 800px; */
+  min-height: 480px;
 }
 
 body {

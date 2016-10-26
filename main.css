@@ -5,6 +5,9 @@
   	margin-top: 5px;
   }*/ }
 
+#comment-feed {
+  padding-top: 20px; }
+
 #gallery div {
   padding: 20px; }
 #gallery div img {
@@ -19,7 +22,12 @@
   font-family: "Open Sans", sans-serif; }
 
 #msgSubmit {
+  font-weight: bold;
+  margin-bottom: 5px;
   visibility: hidden; }
+
+#submit-button {
+  margin-top: 7px; }
 
 /*
 #msgSubmit {
