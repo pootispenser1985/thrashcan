@@ -22,7 +22,7 @@
           <span id="msgSubmit">placeholder</span>
           <textarea class="form-control" id="comment-text" name="comment"
             placeholder="Leave a comment! Only one per IP, please." rows=4></textarea>
-          <input class="btn btn-primary" id="submit-button" type="submit" value="submit"></input>
+          <input class="btn btn-primary btn-block" id="submit-button" type="submit" value="submit"></input>
         </form>
       </div>
     </div>
